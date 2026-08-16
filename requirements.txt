@@ -1,0 +1,24 @@
+# Shared requirements. Add packages per stage as you go.
+
+# Stage 1 - first call
+anthropic
+python-dotenv
+
+# Stage 2 / 2b - tool use
+requests
+
+# Stage 3 - RAG
+
+# Stage 4 - agent
+
+# Stage 5 - LangGraph
+
+# Stage 6 - vector DB
+
+# crewai_multiagent
+
+# Stage 7 - authenticated API
+
+# Stage 8 - evaluation
+
+# Stage 9 - MCP

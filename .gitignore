@@ -1,0 +1,25 @@
+# Virtual environment
+venv/
+.venv/
+
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Vector stores / local data
+*.sqlite3
+chroma/
+.chroma/
+faiss_index/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
