@@ -141,3 +141,5 @@ def ask(question):
 ask("Who founded Blorbex, and what year?")
 ask("If Blorbex had 14 employees in 2024 and hires 3 more, how many will that be?")
 ask("Is that more or fewer than Blorbex had when it was founded?")
+
+ask("How many employees did Blorbex have when it was founded, and if that number doubled, what would it be?")
