@@ -1,6 +1,6 @@
 # Agentic AI From Scratch
 
-Nine stages, building from a single API call up to a working agent with tools, memory, retrieval, multi-agent orchestration, a real authenticated API, evaluation, and MCP. Everything is built by hand in plain Python first. Frameworks (LangGraph, CrewAI, Chroma) only get introduced once the thing they automate already exists and is understood.
+Nine stages, building from a single API call up to a working agent with tools, memory, retrieval, multi-agent orchestration, a real authenticated API, evaluation, and MCP. Everything is built in plain Python first. Frameworks (LangGraph, CrewAI, Chroma) only get introduced once the thing they automate already exists and is understood.
 
 ## What this shows
 
