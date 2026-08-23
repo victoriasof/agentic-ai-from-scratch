@@ -1,14 +1,14 @@
-# Agentic AI From Scratch
+# AI Agent Fundamentals
 
-Nine stages, building from a single API call up to a working agent with tools, memory, retrieval, multi-agent orchestration, a real authenticated API, evaluation, and MCP. Everything is built in plain Python first. Frameworks (LangGraph, CrewAI, Chroma) only get introduced once the thing they automate already exists and is understood.
+A hands-on build-up of agentic AI concepts — tool use, RAG, memory, multi-agent coordination, and evaluation — implemented first by hand in plain Python, then
+compared against the frameworks that automate them (LangGraph, CrewAI, Chroma).
 
-## What this shows
+## What this demonstrates
 
-- How tool-calling actually works, because I built the request → decide → execute → respond loop myself before using any framework for it
-- A RAG pipeline built from scratch, including a real retrieval bug I found and fixed (details below), not just a version that happened to work
-- Enough understanding to judge whether a framework is actually pulling its weight at a given point, instead of assuming it's better by default
-- A multi-agent crew where one agent (the Reviewer) initially couldn't work properly, and I fixed the cause 
-- Basic things a real system needs: a small evaluation set, logging, and a cost guard that I tested
+- Understanding of how LLM tool-calling actually works under the hood — not just how to call a framework's API
+- A working RAG pipeline built from raw embeddings and cosine similarity, before ever using a vector database
+- The ability to evaluate whether a framework (LangGraph, CrewAI) is adding real value over a hand-rolled equivalent, for a given level of complexity
+- Basic production-readiness practices: a golden-dataset evaluation suite, structured logging, and cost tracking
 
 ## Setup
 
