@@ -2,6 +2,8 @@
 venv/
 .venv/
 
+venv310/
+
 # Secrets
 .env
 
