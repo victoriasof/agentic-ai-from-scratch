@@ -7,8 +7,8 @@ Nine stages, building from a single API call up to a working agent with tools, m
 - How tool-calling actually works, because I built the request → decide → execute → respond loop myself before using any framework for it
 - A RAG pipeline built from scratch, including a real retrieval bug I found and fixed (details below), not just a version that happened to work
 - Enough understanding to judge whether a framework is actually pulling its weight at a given point, instead of assuming it's better by default
-- A multi-agent crew where one agent (the Reviewer) initially couldn't do its job properly, and I fixed the actual cause rather than papering over it
-- Basic things a real system needs and a toy script usually skips: a small evaluation set, logging, and a cost guard that I actually tested by making it trigger
+- A multi-agent crew where one agent (the Reviewer) initially couldn't work properly, and I fixed the cause 
+- Basic things a real system needs: a small evaluation set, logging, and a cost guard that I tested
 
 ## Setup
 
